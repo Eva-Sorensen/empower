@@ -4,7 +4,7 @@ import style from "../css/FoodResource.module.css";
 export default function FoodResource() {
   console.log("Food Resource");
   return (
-    <div className={style.background}>
+    <div className={style.background + " fade left"}>
       <h1 className={style.mainHeader}>FOOD NEAR YOU</h1>
       <input
         type="text"

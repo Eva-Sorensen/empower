@@ -40,6 +40,7 @@ h1 {
   background-clip: text;
   -moz-background-clip: text;
   -webkit-background-clip: text;
+  padding-top: 52px;
 }
 h2 {
   font-size: xx-large;
