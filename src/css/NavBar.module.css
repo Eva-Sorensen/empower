@@ -47,12 +47,12 @@
     color: black;
   }
   
-  nav ul li.active {
+  .active {
     background-color: var(--pink-mid);
     color: white;
   }
   
-  .nav2 ul li.active {
+  .active {
     background-color: var(--pink-mid);
     color: white;
   }
