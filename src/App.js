@@ -8,6 +8,7 @@ import YourOffer from "./pages/YourOffer.js";
 import Meetup from "./pages/Meetup";
 import FoodResource from "./pages/FoodResource.js";
 import WhereTo from "./pages/WhereTo.js";
+import AvailableResources from "./pages/AvailableResources";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="meetup" element={<Meetup />} />
         <Route path="food" element={<FoodResource />} />
         <Route path="whereto" element={<WhereTo />} />
+        <Route path="availableResources" element={<AvailableResources />} />
       </Route>
     </Routes>
   );
