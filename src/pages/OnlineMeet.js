@@ -4,7 +4,7 @@ import style from "../css/OnlineMeet.module.css";
 export default function OnlineMeet() {
   return (
     <div className={style.background}>
-      <h1 className={style.mainHeader}>WHAT ARE YOU LOOKING FOR . . .</h1>
+      <h1 className={style.mainHeader}>TALK TO US . . .</h1>
       <div className={style.section}>
         <button className={style.option}>
           <UserCircle size={100} color="#f26680" className={style.icon} />

@@ -52,6 +52,11 @@ export default function NavBar() {
               Resources
             </li>
           </NavLink>
+          <NavLink to="onlineMeet" className={style.nav_link}>
+            <li className={`${pathname === "/onlineMeet" ? style.active : ""}`}>
+              Talk
+            </li>
+          </NavLink>
         </ul>
       </div>
     </nav>
