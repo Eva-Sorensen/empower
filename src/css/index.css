@@ -27,9 +27,10 @@ code {
 }
 
 h1 {
-  font-size: xx-large;
-  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-  background-size: cover;
+  font-size: xx-large; 
+  background-image: url(https://media.giphy.com/media/37oQNyNrbumM8wZtEg/giphy.gif);
+  background-position: center center;
+  background-size: 750px;
   color: transparent;
   background-clip: text;
   -moz-background-clip: text;
