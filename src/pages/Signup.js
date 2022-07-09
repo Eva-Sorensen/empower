@@ -14,17 +14,17 @@ export default function Signup() {
             <input
               type="text"
               className={style.input}
-              placeholder="email"
+              placeholder="Email"
             ></input>
             <input
               type="password"
               className={style.input}
-              placeholder="password"
+              placeholder="Password"
             ></input>
             <input
               type="password"
               className={style.input}
-              placeholder="confirm password"
+              placeholder="Confirm Password"
             ></input>
           </form>
           <button
