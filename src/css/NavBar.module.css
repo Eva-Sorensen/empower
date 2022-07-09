@@ -1,114 +1,115 @@
-
 /* ----------------------------- nav ----------------------------- */
 .slide_in {
-    animation: slide_in ease 2s forwards;
+  animation: slide_in ease 2s forwards;
+}
+@keyframes slide_in {
+  100% {
+    transform: translateY(0px);
   }
-  @keyframes slide_in {
-    100% {
-      transform: translateY(0px);
-    }
-    0% {
-      transform: translateY(-57px);
-    }
+  0% {
+    transform: translateY(-57px);
   }
-  
-  .fa_github {
-    font-size: 24px;
-    top: 5px;
-  }
-  
-  nav {
-    position: fixed;
-    width: 100vw;
-    z-index: 10;
-    background-color: var(--pink-light);
-    overflow: hidden;
-  }
-  
-  nav ul {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    transition: 1s;
-    height: 100%;
-  }
-  
-  nav ul li:hover {
-    background-color: var(--pink-dark);
-    color: black;
-  }
-  
-  .active {
-    background-color: var(--pink-mid);
-    color: white;
-  }
-  
-  .active {
-    background-color: var(--pink-mid);
-    color: white;
-  }
-  
-  .nav2 ul li {
-    font-size: 19px;
-    padding: 10px 16px;
-  }
-  
-  .extra_small_screensize {
-    font-size: 17px !important;
-    padding: 10px 10px !important;
-  }
-  
-  nav ul a {
-    color: grey;
-  }
-  
-  .navbar_container {
-    width: 1000px;
-    max-width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .nav2 {
-    overflow-x: auto;
-  }
-  
-  .nav2_container {
-    min-width: 389px;
-  }
-  
-  .nav2::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .navbar_container_smallscreen {
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .navbar_rightside {
-    float: right;
-    cursor: pointer;
-  }
-  
-  .dropdown_open {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  .nav2 {
-    z-index: 5;
-    top: 57px;
-    background-color: var(--primary-colour);
-  }
+}
+
+.fa_github {
+  font-size: 24px;
+  top: 5px;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+  background-color: var(--pink-light);
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 1s;
+  height: 100%;
+}
+
+nav ul li:hover {
+  background-color: var(--pink-mid);
+  color: black;
+}
+
+.inactive {
+  color: black;
+}
+
+.active {
+  color: white;
+}
+
+.active li {
+  background-color: var(--pink-dark);
+}
+
+.nav2 ul li {
+  font-size: 19px;
+  padding: 10px 16px;
+}
+
+.extra_small_screensize {
+  font-size: 17px !important;
+  padding: 10px 10px !important;
+}
+
+nav ul a {
+  color: grey;
+}
+
+.navbar_container {
+  width: 1000px;
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav2 {
+  overflow-x: auto;
+}
+
+.nav2_container {
+  min-width: 389px;
+}
+
+.nav2::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar_container_smallscreen {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar_rightside {
+  float: right;
+  cursor: pointer;
+}
+
+.dropdown_open {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav2 {
+  z-index: 5;
+  top: 57px;
+  background-color: var(--primary-colour);
+}

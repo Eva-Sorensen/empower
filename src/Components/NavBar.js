@@ -3,30 +3,52 @@ import style from "../css/NavBar.module.css";
 
 export default function NavBar() {
   // var pathname = window.location.pathname
-  var pathname = "/fzdg"
+  var pathname = "/fzdg";
   return (
     <nav className={style.slide_in}>
-      <div
-        className={style.navbar_container}
-      >
+      <div className={style.navbar_container}>
         <ul>
-          <NavLink to="" className={`${style.nav_link} ${({isActive})=>isActive ? style.active : ""}`}>
+          <NavLink
+            to=""
+            className={({ isActive }) =>
+              isActive ? style.active : style.inactive
+            }
+          >
             <li className={`${pathname === "/" ? style.active : ""}`}>
               Empower
             </li>
           </NavLink>
-          <NavLink to="about" className={style.nav_link}>
+          <NavLink
+            to="about"
+            className={({ isActive }) =>
+              isActive ? style.active : style.inactive
+            }
+          >
             <li className={`${pathname === "/about" ? style.active : ""}`}>
               About
             </li>
           </NavLink>
-          <NavLink to="meetups" className={style.nav_link}>
+          <NavLink
+            to="meetups"
+            className={({ isActive }) =>
+              isActive ? style.active : style.inactive
+            }
+          >
             <li className={`${pathname === "/meetups" ? style.active : ""}`}>
               Meet ups
             </li>
           </NavLink>
-          <NavLink to="availableResources" className={style.nav_link}>
-            <li className={`${pathname === "/availableResources" ? style.active : ""}`}>
+          <NavLink
+            to="availableResources"
+            className={({ isActive }) =>
+              isActive ? style.active : style.inactive
+            }
+          >
+            <li
+              className={`${
+                pathname === "/availableResources" ? style.active : ""
+              }`}
+            >
               Resources
             </li>
           </NavLink>
