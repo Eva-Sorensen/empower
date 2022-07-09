@@ -14,7 +14,7 @@ export default function WhereTo() {
     navigate("/meetup", { replace: true });
   };
   return (
-    <div className={style.background}>
+    <div className={style.background + " fade left"}>
       <h1 className={style.mainHeader}>WHAT ARE YOU LOOKING FOR . . .</h1>
       <div className={style.section}>
         <button onClick={selectResources} className={style.option}>

@@ -1,5 +1,5 @@
 export default function Home() {
   return <div className="home-containter">
-      <h1>Empower.</h1>
+      <h1 className="fade down">Empower.</h1>
     </div>
 }

@@ -7,7 +7,7 @@ export default function Signup() {
     navigate("/whereto", { replace: true });
   };
   return (
-    <div className={style.background}>
+    <div className={style.background + " fade left"}>
       <div className={style.mainSection}>
         <div className={style.formContainer}>
           <form className={style.form}>

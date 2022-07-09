@@ -7,7 +7,7 @@ export default function NewOffer() {
     navigate("/", { replace: true });
   };
   return (
-    <div className={style.background}>
+    <div className={style.background + " fade left"}>
       <div className={style.mainSection}>
         <div className={style.formContainer}>
           <h1 className={style.mainHeader}>New Offer</h1>

@@ -15,7 +15,7 @@ export default function AvailableResources() {
     navigate("/food", { replace: true });
   };
   return (
-    <div className={style.background}>
+    <div className={style.background + " fade left"}>
       <h1 className={style.mainHeader}>WHAT DO YOU NEED . . .</h1>
       <div className={style.section}>
         <button onClick={selectFood} className={style.option}>

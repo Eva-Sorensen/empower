@@ -2,7 +2,7 @@ import style from "../css/YourOffer.module.css";
 
 export default function YourOffer() {
   return (
-    <div className={style.background + " container"}>
+    <div className={style.background + " container fade left"}>
       <h1 className={style.mainHeader}>YOUR OFFERS</h1>
       <div className={style.offersSection}>
         <div className={style.offer}>

@@ -3,7 +3,7 @@ import style from "../css/OnlineMeet.module.css";
 
 export default function OnlineMeet() {
   return (
-    <div className={style.background}>
+    <div className={style.background + " fade left"}>
       <h1 className={style.mainHeader}>TALK TO US . . .</h1>
       <div className={style.section}>
         <button className={style.option}>
