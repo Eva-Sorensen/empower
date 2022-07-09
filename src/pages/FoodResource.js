@@ -1,3 +1,4 @@
+import LocationComponent from "../Components/LocationComponent";
 import style from "../css/FoodResource.module.css";
 
 export default function FoodResource() {
@@ -14,21 +15,24 @@ export default function FoodResource() {
       <div className={style.mapSection}>
         <img src="map.png" alt="map" className={style.map} />
         <div className={style.foodSection}>
-          <div className={style.food1}>
-            <h2 className={style.foodTitle}>Community Food Bank</h2>
-            <p className={style.foodLocation}>14 Auckland City, Auckland</p>
-            <p className={style.foodAvailability}>Open: Everyday 9AM - 8PM</p>
-          </div>
-          <div className={style.food2}>
-            <h2 className={style.foodTitle}>Food Drive</h2>
-            <p className={style.foodLocation}>112 Auckland City, Auckland</p>
-            <p className={style.foodAvailability}>Open: Monday 10AM - 12PM</p>
-          </div>
-          <div className={style.food3}>
-            <h2 className={style.foodTitle}>Sunday Roast Dinner</h2>
-            <p className={style.foodLocation}>9 Auckland City, Auckland</p>
-            <p className={style.foodAvailability}>Open: message for time</p>
-          </div>
+          <LocationComponent
+            heading="Community Food Bank"
+            date="Everyday 9am-8pm"
+            color="#20639b"
+            description="Avaliable at 14 Auckland City, Auckland"
+          />
+          <LocationComponent
+            heading="Food Drive"
+            date="Monday 10am - 12pm"
+            color="#f6d55c"
+            description="Avaliable at 112 Auckland City, Auckland"
+          />
+          <LocationComponent
+            heading="Sunday Roast Dinner"
+            date="message for time"
+            color="#ed553b"
+            description="Avaliable at 9 Auckland City, Auckland"
+          />
         </div>
       </div>
     </div>

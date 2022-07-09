@@ -4,7 +4,7 @@ import style from "../css/Signup.module.css";
 export default function Signup() {
   const navigate = useNavigate();
   const submitClick = () => {
-    navigate("/", { replace: true });
+    navigate("/whereto", { replace: true });
   };
   return (
     <div className={style.background}>
