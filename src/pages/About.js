@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import style from "../css/About.module.css";
 
 export default function About() {
+  const navigate = useNavigate();
+  const submitClick = () => {
+    navigate("/signup", { replace: true });
+  };
   return <div className="container fade left">
       <h2>About Us</h2>
       <p>Why are we here?</p>
@@ -13,7 +17,7 @@ export default function About() {
       </p>
       <p>Through Empower, you can talk to other women, make friends, provide support and find your own freedom in the world</p>
       <br />
-      <div className={style.link_button}>
+      <div className={style.link_button} onClick={submitClick}>
         <div class={style.link_wrapper}>
           <a href="#">Join the cause!</a>
           <div class={style.icon}>

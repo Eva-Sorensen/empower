@@ -1,6 +1,6 @@
 import style from "../css/YourOffer.module.css";
 
-export default function Signup() {
+export default function YourOffer() {
   return (
     <div className={style.background}>
       <h1 className={style.mainHeader}>YOUR OFFERS</h1>

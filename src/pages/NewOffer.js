@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import style from "../css/NewOffer.module.css";
 
-export default function Signup() {
+export default function NewOffer() {
   const navigate = useNavigate();
   const submitClick = () => {
     navigate("/", { replace: true });
