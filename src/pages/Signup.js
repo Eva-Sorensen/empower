@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import style from "../css/Signup.module.css";
 
 export default function Signup() {
+  const navigate = useNavigate();
+  const submitClick = () => {
+    navigate("/", { replace: true });
+  };
   return (
     <div className={style.background}>
       <div className={style.mainSection}>
@@ -23,9 +27,13 @@ export default function Signup() {
               placeholder="confirm password"
             ></input>
           </form>
-          <Link to="" className={style.listLink}>
-            <li className={style.listItem}>Submit</li>
-          </Link>
+          <button
+            type="button"
+            className={style.listLink}
+            onClick={submitClick}
+          >
+            Submit
+          </button>
         </div>
         <div className={style.bottomSection}>
           <div className={style.signupSection}>
