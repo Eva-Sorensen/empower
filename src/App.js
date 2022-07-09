@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import Header from "./pages/Header.js";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
