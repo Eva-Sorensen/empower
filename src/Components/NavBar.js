@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { UserCircle } from "phosphor-react";
 import style from "../css/NavBar.module.css";
 
 export default function NavBar() {
@@ -52,9 +53,27 @@ export default function NavBar() {
               Resources
             </li>
           </NavLink>
-          <NavLink to="onlineMeet" className={style.nav_link}>
+          <NavLink
+            to="onlineMeet"
+            className={({ isActive }) =>
+              isActive ? style.active : style.inactive
+            }
+          >
             <li className={`${pathname === "/onlineMeet" ? style.active : ""}`}>
               Talk
+            </li>
+          </NavLink>
+        </ul>
+
+        <ul>
+          <NavLink
+            to="signup"
+            className={({ isActive }) =>
+              isActive ? style.active : style.inactive
+            }
+          >
+            <li className={`${pathname === "/onlineMeet" ? style.active : ""}`}>
+              <UserCircle size={32} color="black" className={style.icon} />
             </li>
           </NavLink>
         </ul>
