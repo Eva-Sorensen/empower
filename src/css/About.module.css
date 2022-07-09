@@ -1,0 +1,57 @@
+
+
+.link_button .link_wrapper{
+    position: relative;
+    width: 205px;
+    margin: auto;
+  }
+  
+  .link_button a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: var(--pink-dark);
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 3px solid var(--pink-dark);
+    transition: all .35s;
+    text-transform: uppercase;
+  }
+  
+  .link_button .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .link_button .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: var(--pink-mid);
+    transition: all .35s;
+  }
+  
+  .link_button a:hover{
+    width: 200px;
+    border: 3px solid var(--pink-mid);
+    background: transparent;
+    color: var(--pink-mid);
+  }
+  
+  .link_button a:hover + .icon{
+    border: 3px solid var(--pink-mid);
+    right: -25%;
+  }
