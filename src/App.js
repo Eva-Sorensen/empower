@@ -6,6 +6,7 @@ import Signup from "./pages/Signup.js";
 import NewOffer from "./pages/NewOffer.js";
 import YourOffer from "./pages/YourOffer.js";
 import FoodResource from "./pages/FoodResource.js";
+import WhereTo from "./pages/WhereTo.js";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="newoffer" element={<NewOffer />} />
         <Route path="youroffer" element={<YourOffer />} />
         <Route path="food" element={<FoodResource />} />
+        <Route path="whereto" element={<WhereTo />} />
       </Route>
     </Routes>
   );
