@@ -1,0 +1,37 @@
+.location_component {
+    width: 500px;
+    font-size: large;
+    background-color: white;
+    background-image: white;
+    border-radius: 16px;
+    text-align: left;
+    margin-bottom: 24px;
+    padding: 18px;
+    position: relative;
+}
+
+.icon {
+    float: left;
+    padding-right: 8px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.location_component h3 {
+    margin: 0;
+    padding-bottom: 12px;
+    padding-left: 60px;
+}
+
+.location_component p {
+    margin: 0;
+    padding-left: 60px;
+}
+
+.date {
+    float: right;
+}
