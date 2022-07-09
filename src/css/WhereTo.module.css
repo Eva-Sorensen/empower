@@ -1,7 +1,7 @@
 .background {
   display: flex;
   flex-direction: column;
-  gap: 9rem;
+  gap: 7rem;
   align-items: center;
 }
 
