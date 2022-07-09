@@ -5,6 +5,7 @@ import About from "./pages/About.js";
 import Signup from "./pages/Signup.js";
 import NewOffer from "./pages/NewOffer.js";
 import YourOffer from "./pages/YourOffer.js";
+import FoodResource from "./pages/FoodResource.js";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="signup" element={<Signup />} />
         <Route path="newoffer" element={<NewOffer />} />
         <Route path="youroffer" element={<YourOffer />} />
+        <Route path="food" element={<FoodResource />} />
       </Route>
     </Routes>
   );
