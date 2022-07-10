@@ -1,0 +1,52 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  align-items: center;
+}
+
+.mainHeader {
+  margin: 0;
+  padding: 0;
+  color: var(--pink-dark);
+  font-size: 3rem;
+  margin-top: 150px;
+}
+
+.section {
+  margin: 0 10rem;
+  padding: 0;
+  color: var(--pink-mid);
+  display: flex;
+  gap: 8rem;
+}
+
+.option {
+  box-sizing: border-box;
+  background-color: white;
+  width: 28vw;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  color: var(--pink-mid);
+  border: 0;
+  cursor: pointer;
+  align-items: center;
+}
+.option:hover {
+  background-color: #fef4f7;
+  border: 0;
+}
+
+.optionHeader {
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  margin-top: 2rem;
+}

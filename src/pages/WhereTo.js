@@ -8,7 +8,7 @@ export default function WhereTo() {
     navigate("/availableResources", { replace: true });
   };
   const selectOnlineConnection = () => {
-    navigate("/", { replace: true });
+    navigate("/onlineMeet", { replace: true });
   };
   const selectMeetUp = () => {
     navigate("/meetup", { replace: true });

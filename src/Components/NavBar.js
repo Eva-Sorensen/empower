@@ -67,12 +67,12 @@ export default function NavBar() {
 
         <ul>
           <NavLink
-            to="signup"
+            to="offers"
             className={({ isActive }) =>
               isActive ? style.active : style.inactive
             }
           >
-            <li className={`${pathname === "/onlineMeet" ? style.active : ""}`}>
+            <li className={`${pathname === "/offers" ? style.active : ""}`}>
               <UserCircle size={32} color="black" className={style.icon} />
             </li>
           </NavLink>
