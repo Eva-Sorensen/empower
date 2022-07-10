@@ -40,6 +40,16 @@ export default function NavBar() {
             </li>
           </NavLink>
           <NavLink
+            to="onlineMeet"
+            className={({ isActive }) =>
+              isActive ? style.active : style.inactive
+            }
+          >
+            <li className={`${pathname === "/onlineMeet" ? style.active : ""}`}>
+              Talk
+            </li>
+          </NavLink>
+          <NavLink
             to="availableResources"
             className={({ isActive }) =>
               isActive ? style.active : style.inactive
@@ -51,16 +61,6 @@ export default function NavBar() {
               }`}
             >
               Resources
-            </li>
-          </NavLink>
-          <NavLink
-            to="onlineMeet"
-            className={({ isActive }) =>
-              isActive ? style.active : style.inactive
-            }
-          >
-            <li className={`${pathname === "/onlineMeet" ? style.active : ""}`}>
-              Talk
             </li>
           </NavLink>
         </ul>
