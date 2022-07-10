@@ -13,7 +13,7 @@ export default function FoodResource() {
         value="20 Auckand City, Auckland"
       ></input>
       <div className={style.mapSection}>
-        <img src="map.png" alt="map" className={style.map} />
+        <img src="map.jpg" alt="map" className={style.map} />
         <div className={style.foodSection}>
           <LocationComponent
             heading="Community Food Bank"
