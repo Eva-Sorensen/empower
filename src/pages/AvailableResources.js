@@ -5,7 +5,7 @@ import {
   HouseLine,
   Briefcase,
   Wallet,
-  DotsThreeOutline,
+  FirstAid,
 } from "phosphor-react";
 import style from "../css/AvailableResources.module.css";
 
@@ -41,7 +41,7 @@ export default function AvailableResources() {
           <h2 className={style.optionHeader}>Financial</h2>
         </button>
         <button className={style.option}>
-          <DotsThreeOutline size={100} color="#f26680" className={style.icon} />
+          <FirstAid size={100} color="#f26680" className={style.icon} />
           <h2 className={style.optionHeader}>Health</h2>
         </button>
       </div>
