@@ -4,7 +4,7 @@ import style from "../css/NewOffer.module.css";
 export default function NewOffer() {
   const navigate = useNavigate();
   const submitClick = () => {
-    navigate("/", { replace: true });
+    navigate("/offers", { replace: true });
   };
   return (
     <div className={style.background + " fade left"}>

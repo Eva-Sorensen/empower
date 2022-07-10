@@ -9,7 +9,7 @@ export default function YourOffer() {
           <h2 className={style.offerHeader}>Transport</h2>
           <p className={style.info}>Name: Jane Doe</p>
           <p className={style.info}>Email: janedoe4@gmail.com</p>
-          <p className={style.info}>Location: 20 Auckand City, Auckland</p>
+          <p className={style.info}>Location: 20 Auckand City</p>
           <p className={style.openDate}>Open Since: 20/02/2022</p>
           <div className={style.buttons}>
             <button className={style.edit}>edit</button>
