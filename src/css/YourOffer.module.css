@@ -14,17 +14,17 @@
 }
 
 .offersSection {
-  margin: 0 10rem;
+  margin: 0 5rem;
   padding: 0;
   color: var(--pink-mid);
   display: flex;
-  gap: 8rem;
+  gap: 4rem;
 }
 
 .offer {
   box-sizing: border-box;
   background-color: white;
-  width: 22vw;
+  width: 35vw;
   border-radius: 5rem;
   display: flex;
   flex-direction: column;
