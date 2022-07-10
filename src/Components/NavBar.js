@@ -30,7 +30,7 @@ export default function NavBar() {
             </li>
           </NavLink>
           <NavLink
-            to="meetups"
+            to="meetup"
             className={({ isActive }) =>
               isActive ? style.active : style.inactive
             }
